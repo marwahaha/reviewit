@@ -16,7 +16,11 @@ For the sake of simplicity, the work/review processes is split in two components
 
 ## Installing
 
-You need ruby at least 2.2.2, then install the gem dependencies.
+You need:
+
+ * ruby at least 2.5.x.
+ * yarn, to handle javascript dependencies.
+ * postgres (mysql may work, but isn't tested).
 
 ```
 $ bundle install --without development,test

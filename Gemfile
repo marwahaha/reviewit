@@ -12,10 +12,11 @@ gem 'redcarpet'
 gem 'sass-rails', '~> 4.0.3'
 gem 'serviceworker-rails', '~> 0.5.4'
 gem 'sidekiq'
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.2.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'unicorn', require: false
 gem 'webpush', '~> 0.3.1'
+gem 'webpacker', '~> 3.0'
 gem 'will_paginate', '~> 3.0'
 
 group :development, :test do

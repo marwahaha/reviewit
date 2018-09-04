@@ -24,7 +24,7 @@ function receiveMessageFromServiceWorker(event) {
   console.log(event.data);
 }
 
-function registerWebPushNotifications() {
+export default function registerWebPushNotifications() {
   if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/serviceworker.js', { scope: '/' }).then(subscribeServiceWorker);
     navigator.serviceWorker.addEventListener('message', receiveMessageFromServiceWorker);

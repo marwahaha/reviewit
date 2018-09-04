@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "highcharts": "^6.1.2",
+    "jquery": "^3.3.1",
+    "marked": "^0.5.0",
+    "rails-erb-loader": "^5.5.0",
+    "rails-ujs": "^5.2.1",
+    "simplemde": "^1.11.2",
+    "turbolinks": "^5.2.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}
